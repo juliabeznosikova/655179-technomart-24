@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Юлия Безносикова](https://up.htmlacademy.ru/htmlcss/24/user/655179).
-* Наставник: [Станислав Кузнецов] (https://htmlacademy.ru/profile/id237925).
+* Наставник: [Станислав # Кузнецов] (https://htmlacademy.ru/profile/id237925).
 
 ---
 
