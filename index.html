@@ -6,40 +6,125 @@
   </head>
   <body>
     
-    <header class="site-header">
-      <p class="header-logo">
-        <a href="index.html">Техномарт</a>      
-      </p>
+    <header class="main-header">
+      <div class="main-header-top">
+        <div class="main-header-logo">
+          <p class="main-header-logo-text">
+            <a href="index.html">Техномарт</a>      
+          </p>
+        </div>
 
-      <p class="header-search">Поиск</p> <!-- Не совсем поняла, как происходит появление поля поиска -->
-      <a class="header-wish-list" href="#">Закладки: 0</a> <!-- Нужны ли тут дивы? -->
-      <a class="header-cart" href="#">Корзина: 0</a>
-      <a class="header-checkout" href="#">Оформить заказ</a>
+        <a class="main-header-search">Поиск</a> 
+        <!-- Не совсем поняла, как происходит появление поля поиска при клике на "Поиск", 
+        это не js event, вроде OnClick,после которого появляется поле ввода? -->
+        <a class="main-header-wish-list" href="#">Закладки: 0</a>
+        <a class="main-header-cart" href="#">Корзина: 0</a>
+        <div class="order">
+          <a class="order-button" href="#">Оформить заказ</a>
+        </div>
+      </div>
 
-
-      <p class="header-lid">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-      <a class="header-phone" href="#">+7 (812) 555-05-55</a> 
-      <!-- Как я поняла, клик на номер ведет на форму заполнения заказа звонка с магазина -->
-      <p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <div class="main-hader-bottom">
+        <p class="main-header-lid">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+        <a class="phone-button" href="#">+7 (812) 555-05-55</a> 
+        <!-- Как я поняла, клик на номер ведет на форму заполнения заказа звонка с магазина -->
+        <p class="main-header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       
-      <ul class="user-navigation">
-        <li class="login-link">Войти</li> <!-- Иконку входа не нужно обозначать как тег img?-->
-        <li class="registration-link">Регистрация</li>
-      </ul>
-      
-      <nav class="main-navigation">
-        <ul class="menu">
-          <li>Главная</li>
-          <li>Компания</li>
-          <li>Каталог</li>
-          <li>Новости</li>
-          <li>Спецпредложения</li>
-          <li>Доставка</li>
-          <li>Контакты</li>
+        <ul class="user-navigation">
+          <li><a class="login-link">Войти</a></li> 
+          <!-- Иконку около надписи "вход" не нужно обозначать как тег img?-->
+          <li><a class="registration-link">Регистрация</a></li>
         </ul>
-      </nav>
-
-
+      
+        <nav class="main-header-navigation">
+          <ul class="main-header-menu">
+            <li class="main-header-menu-item">Главная</li>
+            <li class="main-header-menu-item">Компания</li>
+            <li class="main-header-menu-item">Каталог</li>
+            <li class="main-header-menu-item">Новости</li>
+            <li class="main-header-menu-item">Спецпредложения</li>
+            <li class="main-header-menu-item">Доставка</li>
+            <li class="main-header-menu-item">Контакты</li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
+    <main class="main-company">
+      <section class="main-company-about">
+        <h2>Компания "Техномарт"</h2>
+        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонтаи 
+          и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
+        </p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России! 
+          Техномарт работает со многими транспортными компаниями:
+        </p>
+        <ul class="transport-company-list">
+          <li class="transport-company">Деловые линии</li>
+          <li class="transport-company">Автотрейдинг</li>
+          <li class="transport-company">ЖелДорЭкспедиция</li>
+        </ul>
+        <a class="button" href="Company.html">Подробнее о компании</a>
+      </section>
+
+      <section class="main-company-contacts">
+        <h2>Контакты</h2>
+
+        <p>Вы можете забрать товар сами, заехав в наш офис</p>
+        <a class="map" href="map.html">
+          <img src="map.jpeg" width="" height="" alt="Карта местоположения">
+        </a>
+        <a class="button" href="form.html">Заблудились? Напишите нам!</a>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-top"></div>
+          <div class="site-footer-logo"> 
+           <p class="site-footer-logo-text">Техномарт</p>
+          </div>
+      
+          <p class="site-footer-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
+          +7 (812) 555-05-55
+          </p>
+
+          <ul class="site-footer-menu">
+           <li class="site-footer-menu-item">Компания</li>
+           <li class="site-footer-menu-item">Новости</li>
+            <li class="site-footer-menu-item">Каталог</li>
+            <li class="site-footer-menu-item">Доставка</li>
+            <li class="site-footer-menu-item">Контакты</li>
+         </ul>
+
+          <ul class="site-footer-categories">
+            <li class="site-footer-categories-item">Материалы</li>
+            <li class="site-footer-categories-item">Техника</li>
+            <li class="site-footer-categories-item">Инструмент</li>
+            <li class="site-footer-categories-item">Спецпредложения</li>
+          </ul>
+        </div>
+
+        <div class="site-footer-bottom">
+          <p class="site-footer-text">(c) 2010-2019 Компания "Техномарт" Все права защищены</p>
+          
+          <div class="footer-social network"> 
+           <ul>
+              <li> <a class="social-network-button" href="#">В контакте</a></li>
+              <li> <a class="social-network-button" href="#">Фейсбук</a></li>
+              <li> <a class="social-network-button" href="#">Инстаграм</a></li>
+            </ul>
+          </div>
+          
+          <p class="site-footer-text">Обратная связь:<br>
+            <a class="feedback" href="#">mail@htmlacademy.ru</a>
+          </p>
+
+          <p class="site-footer-text">Разработано -
+            <a class="developer" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+          </p>
+        </div> 
+    </footer>
+    
   </body>
 </html>
