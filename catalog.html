@@ -4,20 +4,16 @@
     <meta charset="utf-8">
     <title>Каталог</title>
   </head>
+  
   <body>
-    
+
     <header class="catalog-header">
       <div class="catalog-header-top">
-        <div class="catalog-header-logo">
-            <a href="index.html"><img class="header-logo" src="logo.svg" width="" height="" alt="Техномарт"></a>      
-        </div>
-
-        <span></span><a class="catalog-header-search">Поиск</a></span>
-        <span><a class="catalog-header-wish-list" href="#">Закладки: 0</a></span>
-        <span><a class="catalog-header-cart" href="#">Корзина: 0</a></span>
-        <div class="order">
-          <a class="order-button" href="#">Оформить заказ</a>
-        </div>
+        <a href="index.html"><img class="catalog-header-logo" src="logo.svg" width="" height="" alt="Техномарт"></a>  
+        <a class="search-button">Поиск</a>
+        <a class="catalog-header-wish-list" href="#">Закладки: 0</a>
+        <a class="catalog-header-cart" href="#">Корзина: 0</a>
+        <a class="order-button" href="#">Оформить заказ</a>
       </div>
 
       <div class="catalog-header-bottom">
@@ -25,10 +21,10 @@
         <a class="phone-button" href="#">+7 (812) 555-05-55</a> 
         <p class="catalog-header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       
+        <a class="user-navigation-link"><a class="user-name">Равшан Джамшутович</a> 
         <ul class="user-navigation">
-          <li class="user-navigation-link"><a class="user-name">Равшан Джамшутович</a></li> 
           <li><a class="user-orders">Мои заказы</a></li>
-          <div class="point">‧</div>
+          <li class="point">‧</li>
           <li><a class="personal-office">Личный кабинет</a></li>
         </ul>
       
@@ -47,16 +43,16 @@
     </header>
 
     <main class="catalog-content">
-      <div class="background-h1">
-          <h1>Перфораторы</h1>
+            
+      <div class="field-level-one">
+          <h1 class="catalog-level-one">Перфораторы</h1>
       </div>
   
       <ul class="breadcrumbs">
         <li><a class="breadcrumbs-item" href="index.html"><img class="index-page" src="#"></a></li>
         <li><a class="breadcrumbs-item" href="catalog.html">Каталог</a></li>
         <li><a class="breadcrumbs-item" href="tools.html">Инструменты</a></li>
-        <li class="breadcrumbs-current">Перфораторы</li> <!-- а разделители-галочки ставятся через css,
-          под них не нужен никакой контейнер в html?-->
+        <li class="breadcrumbs-current">Перфораторы</li>
       </ul>
 
       <section class="filters">
@@ -66,173 +62,90 @@
 
       <section class="catalog">
         <ul class="catalog-list">
-          <li class="catalog-item">
-            <h3>
-              <a href="catalog-item.html">
-              <span class="catalog-category">Перфоратор Bosch</span>
-              <span class="catalog-item-model">BFG 300</span>
-            </a>
-          </h3>
-          <p>
-            <a href="catalog-item.html">
+          <li class="catalog-item"> 
+            <a class="list-item" href="catalog-item.html">
               <img src="img/BFG 300.jpg" width="" height="" alt="Перфоратор Bosch BFG 300">
+              <h3 class="catalog-level-three">Перфоратор Bosch BFG 300</h3>
+              <span class="old-price">22550 P.</span>
+              <span class="new-price-button">15500 P./</span>
             </a>
-          </p>
-          <p>
-            <span class="old-price">22550 P.</span>
-            <a class="new-price-button" href="#">15500 P.</a>
-          </p>
           </li>
 
           <li class="catalog-item">
-              <h3>
-                <a href="catalog-item.html">
-                <span class="catalog-category">Перфоратор Bosch</span>
-                <span class="catalog-item-model">BFG 300</span>
-              </a>
-            </h3>
-            <p>
-              <a href="catalog-item.html">
-                <img src="img/BFG 300.jpg" width="" height="" alt="Перфоратор Bosch BFG 300">
-              </a>
-            </p>
-            <p>
+            <a class="list-item" href="catalog-item.html">
+              <img src="img/BFG 300.jpg" width="" height="" alt="Перфоратор Bosch BFG 300">
+              <h3 class="catalog-level-three">Перфоратор Bosch BFG 300</h3>
               <span class="old-price">22550 P.</span>
-              <a class="new-price-button" href="#">15500 P.</a>
-            </p>
+              <span class="new-price-button">15500 P./</span>
+            </a>
+          </li>
+            
+          <li class="catalog-item">
+            <a class="list-item" href="catalog-item.html">
+              <img src="img/BFG 300.jpg" width="" height="" alt="Перфоратор Bosch BFG 300">
+              <h3 class="catalog-level-three">Перфоратор Bosch BFG 300</h3>
+              <span class="old-price">22550 P.</span>
+              <span class="new-price-button">15500 P./</span>
+            </a>
+          </li>
+
+          <li class="catalog-item">
+            <a class="list-item" href="catalog-item.html">
+              <img src="img/BFG 6000.jpg" width="" height="" alt="Перфоратор Bosch BFG 6000">
+              <h3 class="catalog-level-three">Перфоратор Bosch BFG 6000</h3>
+              <span class="old-price">30500 P.</span>
+              <span class="new-price-button">25500 P./</span>
+            </a>
+          </li>
+
+          <li class="catalog-item">
+            <a class="list-item" href="catalog-item.html">
+              <img src="img/BFG 6000.jpg" width="" height="" alt="Перфоратор Bosch BFG 6000">
+              <h3 class="catalog-level-three">Перфоратор Bosch BFG 6000</h3>
+              <span class="old-price">30500 P.</span>
+              <span class="new-price-button">25500 P./</span>
+            </a>
+          </li>
+
+          <li class="catalog-item">
+            <a class="list-item" href="catalog-item.html">
+              <img src="img/BFG 6000.jpg" width="" height="" alt="Перфоратор Bosch BFG 6000">
+              <h3 class="catalog-level-three">Перфоратор Bosch BFG 6000</h3>
+              <span class="old-price">30500 P.</span>
+              <span class="new-price-button">25500 P./</span>
+            </a>
+          </li>
+
+          <li class="catalog-item">
+              <a class="buy-button" href="cart.html">Купить</a>
+              <a class="wish-list-button" href="wish-list.html">В закладки</a>
+              <h3 class="catalog-level-three">Перфоратор Bosch BFG 2000</h3>
+              <span class="new-price-button">12500 P./</span>          
+          </li>
+
+          <li class="catalog-item">
+            <a class="list-item" href="catalog-item.html">
+              <img src="img/BFG 2000.jpg" width="" height="" alt="Перфоратор Bosch BFG 2000">
+              <h3 class="catalog-level-three">Перфоратор Bosch BFG 2000</h3>
+              <span class="new-price-button">12500 P./</span>
+            </a>
+          </li>
+
+          <li class="catalog-item">
+              <a class="list-item" href="catalog-item.html">
+                <img src="img/BFG 2000.jpg" width="" height="" alt="Перфоратор Bosch BFG 2000">
+                <h3 class="catalog-level-three">Перфоратор Bosch BFG 2000</h3>
+                <span class="new-price-button">12500 P./</span>
+              </a>
             </li>
-
-            <li class="catalog-item">
-                <h3>
-                  <a href="catalog-item.html">
-                  <span class="catalog-category">Перфоратор Bosch</span>
-                  <span class="catalog-item-model">BFG 300</span>
-                </a>
-              </h3>
-              <p>
-                <a href="catalog-item.html">
-                  <img src="img/BFG 300.jpg" width="" height="" alt="Перфоратор Bosch BFG 300">
-                </a>
-              </p>
-              <p>
-                <span class="old-price">22550 P.</span>
-                <a class="new-price-button" href="#">15500 P.</a>
-              </p>
-              </li>
-
-              <li class="catalog-item">
-                  <h3>
-                    <a href="catalog-item.html">
-                    <span class="catalog-category">Перфоратор Bosch</span>
-                    <span class="catalog-item-model">BFG 6000</span>
-                  </a>
-                </h3>
-                <p>
-                  <a href="catalog-item.html">
-                    <img src="img/BFG 6000.jpg" width="" height="" alt="Перфоратор Bosch BFG 6000">
-                  </a>
-                </p>
-                <p>
-                  <span class="old-price">30500 P.</span>
-                  <a class="new-price-button" href="#">25500 P.</a>
-                </p>
-                </li>
-
-                <li class="catalog-item">
-                    <h3>
-                      <a href="catalog-item.html">
-                      <span class="catalog-category">Перфоратор Bosch</span>
-                      <span class="catalog-item-model">BFG 6000</span>
-                    </a>
-                  </h3>
-                  <p>
-                    <a href="catalog-item.html">
-                      <img src="img/BFG 6000.jpg" width="" height="" alt="Перфоратор Bosch BFG 6000">
-                    </a>
-                  </p>
-                  <p>
-                    <span class="old-price">30500 P.</span>
-                    <a class="new-price-button" href="#">25500 P.</a>
-                  </p>
-                  </li>
-
-                  <li class="catalog-item">
-                      <h3>
-                        <a href="catalog-item.html">
-                        <span class="catalog-category">Перфоратор Bosch</span>
-                        <span class="catalog-item-model">BFG 6000</span>
-                      </a>
-                    </h3>
-                    <p>
-                      <a href="catalog-item.html">
-                        <img src="img/BFG 6000.jpg" width="" height="" alt="Перфоратор Bosch BFG 6000">
-                      </a>
-                    </p>
-                    <p>
-                      <span class="old-price">30500 P.</span>
-                      <a class="new-price-button" href="#">25500 P.</a>
-                    </p>
-                    </li>
-
-                    <li class="catalog-item">
-                        <h3>
-                          <a href="catalog-item.html">
-                          <span class="catalog-category">Перфоратор Bosch</span>
-                          <span class="catalog-item-model">BFG 2000</span>
-                        </a>
-                      </h3>
-                      <span class="new-item">New</span>
-                      <p>
-                        <a class="green-buy-buttom" href="cart.html">Купить</a>
-                        <a class="green-wish-buttom" href="wish-list.html">В закладки</a>
-                      </p>
-                      <p>
-                         <a class="new-price-button" href="#">12500 P.</a>
-                      </p>
-                      </li>
-
-                      <li class="catalog-item">
-                          <h3>
-                            <a href="catalog-item.html">
-                            <span class="catalog-category">Перфоратор Bosch</span>
-                            <span class="catalog-item-model">BFG 2000</span>
-                          </a>
-                        </h3>
-                        <p>
-                          <a href="catalog-item.html">
-                            <img src="img/BFG 2000.jpg" width="" height="" alt="Перфоратор Bosch BFG 2000">
-                          </a>
-                        </p>
-                        <p>
-                           <a class="new-price-button" href="#">12500 P.</a>
-                        </p>
-                        </li>
-
-                        <li class="catalog-item">
-                            <h3>
-                              <a href="catalog-item.html">
-                              <span class="catalog-category">Перфоратор Bosch</span>
-                              <span class="catalog-item-model">BFG 2000</span>
-                            </a>
-                          </h3>
-                          <p>
-                            <a href="catalog-item.html">
-                              <img src="img/BFG 2000.jpg" width="" height="" alt="Перфоратор Bosch BFG 2000">
-                            </a>
-                          </p>
-                          <p>
-                             <a class="new-price-button" href="#">12500 P.</a>
-                          </p>
-                          </li>
         </ul>
       </section>
     </main>
 
     <footer class="site-footer">
-        <div class="site-footer-top"></div>
-          <div class="site-footer-logo"> 
-              <a href="index.html"><img class="footer-logo" src="logo.svg" width="" height="" alt="Техномарт"></a>      
-          </div>
+        <div class="site-footer-top">
+          <a href="index.html"><img class="catalog-footer-logo" src="logo.svg" width="" height="" alt="Техномарт"></a>      
+          
           <p class="site-footer-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>
           +7 (812) 555-05-55
           </p>
@@ -256,14 +169,12 @@
         <div class="site-footer-bottom">
           <p class="site-footer-text">(c) 2010-2019 Компания "Техномарт" Все права защищены</p>
           
-          <div class="footer-social network"> 
-           <ul>
-              <li> <a class="social-network-button" href="#">В контакте</a></li>
-              <li> <a class="social-network-button" href="#">Фейсбук</a></li>
-              <li> <a class="social-network-button" href="#">Инстаграм</a></li>
-            </ul>
-          </div>
-          
+          <ul class="footer-social network">
+            <li><a class="social-network-button" href="#">В контакте</a></li>
+            <li><a class="social-network-button" href="#">Фейсбук</a></li>
+            <li><a class="social-network-button" href="#">Инстаграм</a></li>
+          </ul>
+                    
           <p class="site-footer-text">Обратная связь:<br>
             <a class="feedback" href="#">mail@htmlacademy.ru</a>
           </p>
